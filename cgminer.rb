@@ -2,6 +2,7 @@ require 'formula'
 
 class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
+  head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
   url 'https://github.com/ckolivas/cgminer/archive/v3.3.0.tar.gz'
   sha1 '3bab851b6ee003f5be810c3cbe6eb46e4b29a07f'
 
