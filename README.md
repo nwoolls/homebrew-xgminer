@@ -1,6 +1,6 @@
 homebrew-cryptocoin
 ===================
-This repository contains Homebrew formulas for two popular CrytpoCoin miners: cgminer and bfgminer.
+This repository contains Homebrew formulas for two popular crypto-coin miners: cgminer and bfgminer.
 
 Installation
 ------------
