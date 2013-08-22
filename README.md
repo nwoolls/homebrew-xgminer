@@ -1,6 +1,6 @@
-homebrew-cryptocoin
+homebrew-xgminer
 ===================
-This repository contains Homebrew formulas for two popular CrytpoCoin miners: cgminer and bfgminer.
+This repository contains Homebrew formulas for two popular crypto-coin miners: cgminer and bfgminer.
 
 Installation
 ------------
@@ -15,7 +15,7 @@ Installation
 
 3. Tap this Homebrew repostory so that you can install packages from it:
 
-        brew tap nwoolls/crytpocoin
+        brew tap nwoolls/xgminer
         
 4. Finally, install either cgminer or bfgminer:
 
@@ -27,6 +27,6 @@ If you'd like to install the miner using the latest source from Github rather th
         
 Usage
 -----
-For more details on installing and using these CrytpoCoin miners under OS X, see this [article][1].
+For more details on installing and using these crypto-coin miners under OS X, see this [article][1].
 
 [1]: http://blog.nwoolls.com/2013/04/24/bitcoin-mining-on-mac-os-x-cgminer-bfgminer
