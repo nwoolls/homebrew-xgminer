@@ -27,6 +27,6 @@ If you'd like to install the miner using the latest source from Github rather th
         
 Usage
 -----
-For more details on installing and using these CrytpoCoin miners under OS X, see this [article][1].
+For more details on installing and using these crypto-coin miners under OS X, see this [article][1].
 
 [1]: http://blog.nwoolls.com/2013/04/24/bitcoin-mining-on-mac-os-x-cgminer-bfgminer
