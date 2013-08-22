@@ -2,6 +2,8 @@ homebrew-xgminer
 ===================
 This repository contains Homebrew formulas for two popular crypto-coin miners: cgminer and bfgminer.
 
+![bfgminer](http://nwoolls.files.wordpress.com/2013/07/screen-shot-2013-07-01-at-5-47-22-pm.png "bfgminer")
+
 Installation
 ------------
 1. Launch Terminal.app from Spotlight or your Applications folder
