@@ -2,9 +2,9 @@ require 'formula'
 
 class Uthash < Formula
   homepage 'http://troydhanson.github.io/uthash/'
-  url 'https://github.com/troydhanson/uthash/archive/master.zip'
-  sha1 '27bbfb08fb93cb339ce7b114e1d43909756f2355'
-  version 'Master'
+  url 'https://github.com/troydhanson/uthash/archive/58d5990617.zip'
+  sha1 '015622dfee4367b5de07a7207f7beb3768e0bd99'
+  version '58d5990617'
 
   def install
     include.install Dir['src/*']
