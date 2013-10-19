@@ -1,8 +1,8 @@
 homebrew-xgminer
 ===================
-This repository contains Homebrew formulas for two popular crypto-coin miners: cgminer and bfgminer.
+This repository contains a Homebrew formula for a popular crypto-coin miner: cgminer.
 
-![bfgminer](http://nwoolls.files.wordpress.com/2013/07/screen-shot-2013-07-01-at-5-47-22-pm.png "bfgminer")
+![cgminer](http://nwoolls.files.wordpress.com/2013/07/screen-shot-2013-07-01-at-5-47-22-pm.png "cgminer")
 
 Installation
 ------------
@@ -17,18 +17,25 @@ Installation
 
 3. Tap this Homebrew repostory so that you can install packages from it:
 
-        brew tap nwoolls/xgminer
+        brew tap kije/xgminer
         
-4. Finally, install either cgminer or bfgminer:
+4. Finally, install cgminer:
 
         brew install cgminer
         
 If you'd like to install the miner using the latest source from Github rather than the latest official package, use the --HEAD parameter:
 
-        brew install bfgminer --HEAD
+        brew install cgminer --HEAD
         
 Usage
 -----
 For more details on installing and using these crypto-coin miners under OS X, see this [article][1].
 
 [1]: http://blog.nwoolls.com/2013/04/24/bitcoin-mining-on-mac-os-x-cgminer-bfgminer
+
+Credit
+------
+This repo was forked from https://github.com/nwoolls/homebrew-xgminer . 
+However, I have decided to make it a repo for cgminer based on the work [nwoolls][2] did. Thanks a lot!
+
+[2]: https://github.com/nwoolls/

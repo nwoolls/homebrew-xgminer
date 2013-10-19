@@ -1,6 +1,6 @@
 require 'formula'
 
-class Cgminer < Formula
+class No_OCL_Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
   url 'https://github.com/ckolivas/cgminer/archive/v3.6.4.tar.gz'
@@ -22,6 +22,8 @@ class Cgminer < Formula
     system "./autogen.sh", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
                           "PKG_CONFIG_PATH=#{HOMEBREW_PREFIX}/opt/curl/lib/pkgconfig:#{HOMEBREW_PREFIX}/opt/jansson/lib/pkgconfig:#{HOMEBREW_PREFIX}/opt/libusb/lib/pkgconfig",
+                          "--disable-opencl",
+                          "--disable-adl",
                           "--enable-scrypt",
                           "--enable-bflsc",
                           "--enable-bitforce",
