@@ -1,6 +1,6 @@
 require 'formula'
 
-class Cgminer < Formula
+class No_OCL_Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
   url 'https://github.com/ckolivas/cgminer/archive/v3.6.4.tar.gz'
