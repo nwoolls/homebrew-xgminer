@@ -26,7 +26,7 @@ class Cgminer < Formula
                           "--enable-bflsc",
                           "--enable-bitforce",
                           "--enable-icarus",
-                          "--enable-klondike"
+                          "--enable-klondike",
                           "--enable-modminer",
                           "--enable-ztex",
                           "--enable-avalon"
