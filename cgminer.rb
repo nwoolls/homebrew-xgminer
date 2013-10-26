@@ -3,8 +3,8 @@ require 'formula'
 class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
-  url 'https://github.com/ckolivas/cgminer/archive/v3.6.1.tar.gz'
-  sha1 'e4f5d7fbf1c78bf8b9eb9c3ccaa2af56a030d30c'
+  url 'https://github.com/ckolivas/cgminer/archive/v3.6.5.tar.gz'
+  sha1 'be01f790273f257b8c68be4ddc69fbf75e5dbc57'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build
@@ -28,7 +28,9 @@ class Cgminer < Formula
                           "--enable-icarus",
                           "--enable-modminer",
                           "--enable-ztex",
-                          "--enable-avalon"
+                          "--enable-avalon",
+                          "--disable-adl",
+                          "--enable-opencl"
     system "make", "install"
   end
 
