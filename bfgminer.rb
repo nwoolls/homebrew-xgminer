@@ -14,6 +14,7 @@ class Bfgminer < Formula
   depends_on 'curl'
   depends_on 'jansson'
   depends_on 'libmicrohttpd'
+  depends_on 'libevent'
 
   def install
     system "./autogen.sh"
