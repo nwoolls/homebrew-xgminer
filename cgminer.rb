@@ -30,7 +30,10 @@ class Cgminer < Formula
                           "--enable-ztex",
                           "--enable-avalon",
                           "--disable-adl",
-                          "--enable-opencl"
+                          "--enable-opencl",
+                          "--enable-bitfury",
+                          "--enable-hashfast",
+                          "--enable-klondike"
     system "make", "install"
   end
 
