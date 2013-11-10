@@ -12,8 +12,6 @@ class Cgminer < Formula
   depends_on 'pkg-config' => :build
   depends_on 'coreutils' => :build
   depends_on 'curl'
-  depends_on 'jansson'
-  depends_on 'libusb'
 
   def install
     inreplace "autogen.sh", "libtoolize", "glibtoolize"
