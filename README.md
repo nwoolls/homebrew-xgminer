@@ -9,7 +9,7 @@ Installation
 1. Launch Terminal.app from Spotlight or your Applications folder
 2. Install Homebrew by entering the following command:
 
-        ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+        ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
 3. Run the following command and fix any reported issues:
 
