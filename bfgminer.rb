@@ -3,8 +3,8 @@ require 'formula'
 class Bfgminer < Formula
   homepage 'https://github.com/luke-jr/bfgminer'
   head 'https://github.com/luke-jr/bfgminer.git', :branch => 'bfgminer'
-  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/4.2.x/bfgminer-4.2.0.zip'
-  sha1 '1dd211b60139edd9c910135b9dd5f47d7bb16f49'
+  url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/4.3.x/bfgminer-4.3.0.zip'
+  sha1 '9a73147491e719d0014bb227a409eb70206d01ea'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build
