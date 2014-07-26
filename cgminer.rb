@@ -3,8 +3,8 @@ require 'formula'
 class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
-  url 'https://github.com/ckolivas/cgminer/archive/v4.4.1.tar.gz'
-  sha1 'e26886df1abbc86337b921ccb8f4551c617655a8'
+  url 'https://github.com/ckolivas/cgminer/archive/v4.4.2.tar.gz'
+  sha1 'f125ed9c67800ca2a4ad45ea98173ea45b2604ed'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build
