@@ -3,8 +3,8 @@ require 'formula'
 class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
-  url 'https://github.com/ckolivas/cgminer/archive/v4.7.1.tar.gz'
-  sha1 '80cba0dd735d9b9593cfcc4763daa79887ac104b'
+  url 'https://github.com/ckolivas/cgminer/archive/v4.8.0.tar.gz'
+  sha1 '2cf902364fc511bd3f3a3cf3a8d5452736f623e4'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build
@@ -15,7 +15,6 @@ class Cgminer < Formula
 
   def install
     inreplace "autogen.sh", "libtoolize", "glibtoolize"
-    inreplace "autogen.sh", "readlink", "greadlink"
     system "autoreconf -fvi"
     system "./autogen.sh", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
