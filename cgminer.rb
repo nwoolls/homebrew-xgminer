@@ -19,21 +19,7 @@ class Cgminer < Formula
     system "./autogen.sh", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
                           "PKG_CONFIG_PATH=#{HOMEBREW_PREFIX}/opt/curl/lib/pkgconfig:#{HOMEBREW_PREFIX}/opt/jansson/lib/pkgconfig:#{HOMEBREW_PREFIX}/opt/libusb/lib/pkgconfig",
-                          "--enable-bflsc",
-                          "--enable-bitforce",
                           "--enable-icarus",
-                          "--enable-modminer",
-                          "--enable-avalon",
-                          "--disable-adl",
-                          "--enable-opencl",
-                          "--enable-bitfury",
-                          "--enable-hashfast",
-                          "--enable-klondike",
-                          "--enable-drillbit",
-                          "--enable-avalon2",
-                          "--enable-blockerupter",
-                          "--enable-cointerra",
-                          "--enable-hashratio"
     system "make", "install"
   end
 
