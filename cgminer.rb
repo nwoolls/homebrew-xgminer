@@ -3,8 +3,7 @@ require 'formula'
 class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
-  url 'https://github.com/ckolivas/cgminer/archive/v4.9.1.tar.gz'
-  sha1 '02caaea660e63a0a53d90e98eb0e256c18ab3f22'
+  url 'https://github.com/ckolivas/cgminer/archive/v4.9.0.tar.gz'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build
@@ -19,21 +18,7 @@ class Cgminer < Formula
     system "./autogen.sh", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
                           "PKG_CONFIG_PATH=#{HOMEBREW_PREFIX}/opt/curl/lib/pkgconfig:#{HOMEBREW_PREFIX}/opt/jansson/lib/pkgconfig:#{HOMEBREW_PREFIX}/opt/libusb/lib/pkgconfig",
-                          "--enable-bflsc",
-                          "--enable-bitforce",
                           "--enable-icarus",
-                          "--enable-modminer",
-                          "--enable-avalon",
-                          "--disable-adl",
-                          "--enable-opencl",
-                          "--enable-bitfury",
-                          "--enable-hashfast",
-                          "--enable-klondike",
-                          "--enable-drillbit",
-                          "--enable-avalon2",
-                          "--enable-blockerupter",
-                          "--enable-cointerra",
-                          "--enable-hashratio"
     system "make", "install"
   end
 
