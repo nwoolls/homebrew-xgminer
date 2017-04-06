@@ -4,7 +4,7 @@ class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
   head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
   url 'https://github.com/ckolivas/cgminer/archive/v4.9.1.tar.gz'
-  sha1 '02caaea660e63a0a53d90e98eb0e256c18ab3f22'
+  sha256 '01e61a98c7387f3fc67c1ee2e65c1f3b8350390b54eefac06f1ad8888d9cda50'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build

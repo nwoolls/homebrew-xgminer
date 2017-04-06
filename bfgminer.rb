@@ -4,7 +4,7 @@ class Bfgminer < Formula
   homepage 'https://github.com/luke-jr/bfgminer'
   head 'https://github.com/luke-jr/bfgminer.git', :branch => 'bfgminer'
   url 'http://luke.dashjr.org/programs/bitcoin/files/bfgminer/5.1.0/bfgminer-5.1.0.zip'
-  sha1 '42ddaa11ee0bf21607222a93d3cc1210279e98f9'
+  sha256 '7b56f7f59dbb019972641dc252372c5235e0b6433bdcfd6f6966d3087346bbe2'
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build

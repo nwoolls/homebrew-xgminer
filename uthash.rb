@@ -3,7 +3,7 @@ require 'formula'
 class Uthash < Formula
   homepage 'http://troydhanson.github.io/uthash/'
   url 'https://github.com/troydhanson/uthash/archive/58d5990617.zip'
-  sha1 'dda1f1116d41e190990cff1cb11c654daee1d256'
+  sha256 '1ddd5c11027133ea3275c53640f3acbcd833d6b1d23acbe6e3f71a802ef8a795'
   version '58d5990617'
 
   def install
