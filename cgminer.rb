@@ -2,10 +2,10 @@ require 'formula'
 
 class Cgminer < Formula
   homepage 'https://github.com/ckolivas/cgminer'
-  head 'https://github.com/ckolivas/cgminer.git', :revision => 'fc33786a4b8699c95db382ab6fd4969a527cd5dd'
+  head 'https://github.com/ckolivas/cgminer.git', :branch => 'master'
   url 'https://github.com/ckolivas/cgminer/archive/fc33786a4b8699c95db382ab6fd4969a527cd5dd.tar.gz'
   sha256 '6a93d065551bde115905037c71398b57cff0efa569bd8e229a20e3d36e598be1'
-  version "4.10.0_1"
+  version "4.10.0"
 
   depends_on 'autoconf' => :build
   depends_on 'automake' => :build
