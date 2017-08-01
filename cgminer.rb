@@ -18,7 +18,6 @@ class Cgminer < Formula
   depends_on 'jansson'
 
   def install
-    inreplace "autogen.sh", "libtoolize", "glibtoolize"
     system "autoreconf -fvi"
     system "./autogen.sh", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
